@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with Natron.  If not, see <http://www.gnu.org/licenses/gpl-2.0.html>
 # ***** END LICENSE BLOCK *****
-
+exit
 # Exit immediately if a command exits with a non-zero status
 set -e
 # Print commands and their arguments as they are executed.

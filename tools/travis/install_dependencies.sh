@@ -371,7 +371,7 @@ elif [[ ${TRAVIS_OS_NAME} == "osx" ]]; then
 
     # OpenImageIO 1.8 requires c++11
     CXX="$CXX -std=c++11"
-    
+    exit
     # OpenFX
     if [ "$CC" = "$TEST_CC" ]; then
         make -C libs/OpenFX/Examples;
